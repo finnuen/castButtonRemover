@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+; Turns Google Cast off inside the browser itself (menu entry, toolbar icon, device discovery).
+; Run as administrator, then fully restart the browser. Undo with restore-browser-cast.reg.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"EnableMediaRouter"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"EnableMediaRouter"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\BraveSoftware\Brave]
+"EnableMediaRouter"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
+"EnableMediaRouter"=dword:00000000

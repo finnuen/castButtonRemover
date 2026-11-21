@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+; Removes the policy again so the browser behaves normally.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"EnableMediaRouter"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"EnableMediaRouter"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\BraveSoftware\Brave]
+"EnableMediaRouter"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
+"EnableMediaRouter"=-

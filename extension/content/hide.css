@@ -1,0 +1,72 @@
+/* castButtonRemover: the hide rules.
+   This file is the single source. tools/hide-rules.mjs copies it verbatim into
+   content/main-world.js (so the same rules reach every shadow root) and derives
+   the KNOWN list in content/dom-guard.js. Edit here; the build regenerates
+   both copies. */
+google-cast-launcher { display: none !important; }
+media-cast-button { display: none !important; }
+media-google-cast-button { display: none !important; }
+media-airplay-button { display: none !important; }
+.ytp-remote-button { display: none !important; }
+ytmusic-cast-button { display: none !important; }
+.ytmusic-cast-button { display: none !important; }
+.vjs-chromecast-button { display: none !important; }
+.vjs-chromecast-button-lg { display: none !important; }
+.vjs-airplay-control { display: none !important; }
+.jw-icon-cast { display: none !important; }
+.jw-icon-airplay { display: none !important; }
+.shaka-cast-button { display: none !important; }
+.bmpui-ui-casttogglebutton { display: none !important; }
+.bmpui-ui-airplaytogglebutton { display: none !important; }
+[data-plyr="airplay"] { display: none !important; }
+.chromecast-button { display: none !important; }
+.headerCastButton { display: none !important; }
+button[aria-label="Chromecast" i] { display: none !important; }
+button[aria-label="Google Cast" i] { display: none !important; }
+button[aria-label="Cast to device" i] { display: none !important; }
+button[aria-label="Cast to devices" i] { display: none !important; }
+button[aria-label="Cast to TV" i] { display: none !important; }
+button[aria-label="Cast to screen" i] { display: none !important; }
+button[aria-label="Cast to Chromecast" i] { display: none !important; }
+button[aria-label="Cast to a device" i] { display: none !important; }
+button[aria-label="Cast to other device" i] { display: none !important; }
+button[aria-label="Cast to another device" i] { display: none !important; }
+button[aria-label="Cast to display" i] { display: none !important; }
+button[aria-label="AirPlay" i] { display: none !important; }
+button[title="Chromecast" i] { display: none !important; }
+button[title="Google Cast" i] { display: none !important; }
+button[title="Cast to device" i] { display: none !important; }
+button[title="Cast to devices" i] { display: none !important; }
+button[title="Cast to TV" i] { display: none !important; }
+button[title="Cast to screen" i] { display: none !important; }
+button[title="Cast to Chromecast" i] { display: none !important; }
+button[title="Cast to a device" i] { display: none !important; }
+button[title="Cast to other device" i] { display: none !important; }
+button[title="Cast to another device" i] { display: none !important; }
+button[title="Cast to display" i] { display: none !important; }
+button[title="AirPlay" i] { display: none !important; }
+[role="button"][aria-label="Chromecast" i] { display: none !important; }
+[role="button"][aria-label="Google Cast" i] { display: none !important; }
+[role="button"][aria-label="Cast to device" i] { display: none !important; }
+[role="button"][aria-label="Cast to devices" i] { display: none !important; }
+[role="button"][aria-label="Cast to TV" i] { display: none !important; }
+[role="button"][aria-label="Cast to screen" i] { display: none !important; }
+[role="button"][aria-label="Cast to Chromecast" i] { display: none !important; }
+[role="button"][aria-label="Cast to a device" i] { display: none !important; }
+[role="button"][aria-label="Cast to other device" i] { display: none !important; }
+[role="button"][aria-label="Cast to another device" i] { display: none !important; }
+[role="button"][aria-label="Cast to display" i] { display: none !important; }
+[role="button"][aria-label="AirPlay" i] { display: none !important; }
+[role="button"][title="Chromecast" i] { display: none !important; }
+[role="button"][title="Google Cast" i] { display: none !important; }
+[role="button"][title="Cast to device" i] { display: none !important; }
+[role="button"][title="Cast to devices" i] { display: none !important; }
+[role="button"][title="Cast to TV" i] { display: none !important; }
+[role="button"][title="Cast to screen" i] { display: none !important; }
+[role="button"][title="Cast to Chromecast" i] { display: none !important; }
+[role="button"][title="Cast to a device" i] { display: none !important; }
+[role="button"][title="Cast to other device" i] { display: none !important; }
+[role="button"][title="Cast to another device" i] { display: none !important; }
+[role="button"][title="Cast to display" i] { display: none !important; }
+[role="button"][title="AirPlay" i] { display: none !important; }
+[data-nocast="1"] { display: none !important; }

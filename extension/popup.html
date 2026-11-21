@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>castButtonRemover</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/icon-32.png" alt="">
+    <h1>castButtonRemover</h1>
+    <span class="ver" id="ver"></span>
+  </header>
+
+  <div class="section">
+    <div class="row">
+      <span>Enabled</span>
+      <label class="switch">
+        <input type="checkbox" id="enabled">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <p class="hint" id="stateHint"></p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <div class="row">
+      <span>Site lists</span>
+      <select id="mode">
+        <option value="blacklist">Blacklist</option>
+        <option value="whitelist">Whitelist</option>
+      </select>
+    </div>
+
+    <input id="addInput" type="text" placeholder="Add a website..." spellcheck="false">
+    <button id="siteBtn"></button>
+    <p class="hint" id="hint"></p>
+
+    <div id="siteList" hidden></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <p class="hint footer">A change applies to pages loaded after it. Reload a tab to see it there.</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
