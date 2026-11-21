@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "castButtonRemover",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Removes and disables Google Cast, Chromecast and AirPlay buttons on every site, including inside video players.",
   "minimum_chrome_version": "119",
   "icons": {
@@ -13,8 +13,7 @@
   "permissions": [
     "declarativeNetRequest",
     "scripting",
-    "storage",
-    "tabs"
+    "storage"
   ],
   "host_permissions": [
     "<all_urls>"

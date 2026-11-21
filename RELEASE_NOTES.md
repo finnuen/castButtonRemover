@@ -1,5 +1,9 @@
 # Release notes
 
+## v1.1
+
+- The `tabs` permission is gone. The popup reads the current site's address from the site access the extension already has, so it no longer asks for a permission it did not use. Nothing else changes; 1.0 and 1.1 behave identically.
+
 ## v1.0
 
 First release.
