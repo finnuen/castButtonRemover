@@ -1,3 +1,5 @@
+Direct download latest:  https://github.com/finnuen/castButtonRemover/releases/download/1.1/castButtonRemover.crx
+
 # castButtonRemover
 
 Removes and disables Google Cast, Chromecast and AirPlay-style "cast to device" buttons on every website, including the ones built into video players. Works in Chrome, Edge, Brave, Opera, Vivaldi and other Chromium browsers (version 119 or newer).
