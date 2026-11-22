@@ -1,4 +1,8 @@
-Direct download latest:  https://github.com/finnuen/castButtonRemover/releases/download/1.1/castButtonRemover.crx
+Direct download latest
+
+CRX            :  https://github.com/finnuen/castButtonRemover/releases/download/1.1/castButtonRemover.crx
+
+load unpacked  :  https://github.com/finnuen/castButtonRemover/releases/download/1.1/castButtonRemover.zip
 
 # castButtonRemover
 
